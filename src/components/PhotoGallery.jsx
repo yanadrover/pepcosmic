@@ -8,26 +8,22 @@ const photos = [
         alt: 'Es Verros Members Collage',
         className: 'md:col-span-2 md:row-span-2'
     },
-    {
-        src: '/assets/images/member-vocalist.png',
-        alt: 'Vocalista',
-        className: 'md:col-span-1 md:row-span-1'
-    },
-    {
-        src: '/assets/images/member-drummer.png',
-        alt: 'Bateria',
-        className: 'md:col-span-1 md:row-span-1'
-    },
-    {
-        src: '/assets/images/member-blue.png',
-        alt: 'Guitarrista Camisa Blava',
-        className: 'md:col-span-1 md:row-span-1'
-    },
-    {
-        src: '/assets/images/member-grey.png',
-        alt: 'Guitarrista Camisa Grisa',
-        className: 'md:col-span-1 md:row-span-1'
-    }
+    { src: '/assets/images/verros/2AF6A4F3-B9F8-48AD-84A9-AFA7560925DE.jpg', alt: 'Es Verros' },
+    { src: '/assets/images/verros/89237DEB-F48A-418D-8367-69CA18168357.jpg', alt: 'Es Verros' },
+    { src: '/assets/images/verros/EB32E7C8-3DFD-4BC2-BCD8-D6F1748C32A7.jpg', alt: 'Es Verros' },
+    { src: '/assets/images/verros/IMG_2733.jpg', alt: 'Es Verros' },
+    { src: '/assets/images/verros/IMG_3544.jpg', alt: 'Es Verros' },
+    { src: '/assets/images/verros/IMG_3560.jpg', alt: 'Es Verros' },
+    { src: '/assets/images/verros/IMG_3564.jpg', alt: 'Es Verros' },
+    { src: '/assets/images/verros/IMG_3567.jpg', alt: 'Es Verros' },
+    { src: '/assets/images/verros/IMG_3572.jpg', alt: 'Es Verros' },
+    { src: '/assets/images/verros/IMG_3577.jpg', alt: 'Es Verros' },
+    { src: '/assets/images/verros/IMG_3579.jpg', alt: 'Es Verros' },
+    { src: '/assets/images/verros/IMG_3582.jpg', alt: 'Es Verros' },
+    { src: '/assets/images/verros/IMG_3589.jpg', alt: 'Es Verros' },
+    { src: '/assets/images/verros/IMG_4819.jpg', alt: 'Es Verros' },
+    { src: '/assets/images/verros/IMG_4836.jpg', alt: 'Es Verros' },
+    { src: '/assets/images/verros/IMG_4839.jpg', alt: 'Es Verros' }
 ];
 
 const PhotoGallery = () => {
@@ -43,15 +39,15 @@ const PhotoGallery = () => {
                     <div className="w-24 h-1 bg-rustic-earth mx-auto rounded-full"></div>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-[250px]">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 auto-rows-[200px] md:auto-rows-[250px]">
                     {photos.map((photo, index) => (
                         <motion.div
                             key={index}
                             initial={{ opacity: 0, scale: 0.9 }}
                             whileInView={{ opacity: 1, scale: 1 }}
-                            transition={{ duration: 0.5, delay: index * 0.1 }}
+                            transition={{ duration: 0.5, delay: index * 0.05 }}
                             viewport={{ once: true }}
-                            className={`relative overflow-hidden rounded-xl border border-white/10 group cursor-pointer ${photo.className}`}
+                            className={`relative overflow-hidden rounded-xl border border-white/10 group cursor-pointer ${photo.className || ''}`}
                             onClick={() => setSelectedPhoto(photo)}
                         >
                             <img
