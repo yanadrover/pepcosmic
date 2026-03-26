@@ -11,7 +11,7 @@ const Contact = () => {
                         Contacta amb naltros
                     </h2>
                     <p className="text-lg opacity-80">
-                        Vols portar la festa còsmica al teu ajuntament o esdeveniment?
+                        Vols portar sa festa còsmica al teu ajuntament o esdeveniment?
                     </p>
                 </div>
 

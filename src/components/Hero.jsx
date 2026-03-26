@@ -21,7 +21,7 @@ const Hero = () => {
                 className="mb-8 relative z-10"
             >
                 <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-starlight mb-4 drop-shadow-[0_0_15px_rgba(255,255,255,0.3)]">
-                    PEP COSMIC
+                    PEP CÒSMIC
                 </h1>
                 <h2 className="font-serif text-3xl md:text-5xl lg:text-6xl text-rustic-earth mb-8">
                     y Es Verros de Balàfia

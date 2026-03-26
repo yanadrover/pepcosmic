@@ -15,7 +15,7 @@ const About = () => {
                     <div className="absolute inset-0 bg-rustic-earth/20 rounded-lg transform rotate-3 scale-105 blur-lg"></div>
                     <img
                         src="/assets/images/banda-rincon.png"
-                        alt="Pep Cosmic i Es Verros de Balàfia al Rincón de Pepe"
+                        alt="Pep Còsmic i Es Verros de Balàfia al Rincón de Pepe"
                         className="relative rounded-lg shadow-2xl hover:scale-[1.02] transition-all duration-500"
                     />
                 </motion.div>
@@ -30,13 +30,13 @@ const About = () => {
                         Himnes Rurals i <span className="text-rustic-earth">Còsmics</span>
                     </h2>
                     <p className="text-lg opacity-80 mb-6 leading-relaxed">
-                        Pep Cosmic i Es Verros de Balàfia són la fusió definitiva entre la tradició pagesa i l'univers infinit.
-                        Amb una guitarra, un barret de palla i una visió surrealista de la realitat, transformem les històries
+                        Pep Còsmic i Es Verros de Balàfia son sa fusió definitiva entre sa tradició pagesa i l'univers infinit.
+                        Amb una guitarra, un capell de palla i una visió surrealista de sa realitat, transformem ses històries
                         quotidianes d'Eivissa en himnes intergalàctics.
                     </p>
                     <p className="text-lg opacity-80 leading-relaxed">
-                        No som només un grup de música; som una experiència. Des de les feixes de Balàfia fins a les estrelles,
-                        cantem a la terra, a la vida i a la irreverència de ser eivissenc en un món modern.
+                        No som només un grup de música; som una experiència. Des de ses feixes de Balàfia fins a ses estrelles,
+                        cantem a sa terra, a la vida i a sa irreverència de ser eivissenc en un món modern.
                     </p>
                 </motion.div>
             </div>

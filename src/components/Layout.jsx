@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
 
             {/* Footer */}
             <footer className="relative z-10 text-center py-6 text-sm opacity-60">
-                <p>&copy; {new Date().getFullYear()} Pep Cosmic y Es Verros de Balàfia</p>
+                <p>&copy; {new Date().getFullYear()} Pep Còsmic y Es Verros de Balàfia</p>
             </footer>
         </div>
     );

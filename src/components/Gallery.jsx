@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const videos = [
     {
         id: '_WJJ9VuaIrg',
-        title: 'Així no es pot viure',
+        title: 'Aixi no es pot viure',
         desc: "L'himne més autèntic i irreverent"
     },
     {
