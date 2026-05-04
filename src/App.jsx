@@ -6,10 +6,12 @@ import Gallery from './components/Gallery';
 import PhotoGallery from './components/PhotoGallery';
 import SocialLinks from './components/SocialLinks';
 import Contact from './components/Contact';
+import BackgroundMusic from './components/BackgroundMusic';
 
 function App() {
   return (
     <Layout>
+      <BackgroundMusic />
       <Hero />
       <About />
       <Gallery />

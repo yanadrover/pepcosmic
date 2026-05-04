@@ -22,7 +22,7 @@ const SocialLinks = () => {
 
                     <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
                         <motion.a
-                            href="https://www.instagram.com/pep_cosmic"
+                            href="https://www.instagram.com/pep_cosmic/"
                             target="_blank"
                             rel="noopener noreferrer"
                             whileHover={{ scale: 1.05 }}
@@ -37,7 +37,7 @@ const SocialLinks = () => {
                         </motion.a>
 
                         <motion.a
-                            href="https://www.youtube.com/@PepCosmic"
+                            href="https://www.youtube.com/@pepcosmic"
                             target="_blank"
                             rel="noopener noreferrer"
                             whileHover={{ scale: 1.05 }}
@@ -47,7 +47,7 @@ const SocialLinks = () => {
                             <Youtube className="w-6 h-6" />
                             <div className="text-left">
                                 <div className="text-sm opacity-90">YouTube</div>
-                                <div className="font-bold">@PepCosmic</div>
+                                <div className="font-bold">@pepcosmic</div>
                             </div>
                         </motion.a>
                     </div>

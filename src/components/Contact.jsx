@@ -45,7 +45,7 @@ const Contact = () => {
 
                         <div className="pt-8 flex gap-6 justify-center md:justify-start">
                             <a
-                                href="https://www.instagram.com/pep_cosmic"
+                                href="https://www.instagram.com/pep_cosmic/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-rustic-earth hover:scale-110 transition-all duration-300"
@@ -53,7 +53,7 @@ const Contact = () => {
                                 <Instagram className="w-5 h-5" />
                             </a>
                             <a
-                                href="https://www.youtube.com/@PepCosmic"
+                                href="https://www.youtube.com/@pepcosmic"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-rustic-earth hover:scale-110 transition-all duration-300"

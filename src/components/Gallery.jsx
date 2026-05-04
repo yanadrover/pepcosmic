@@ -8,9 +8,19 @@ const videos = [
         desc: "L'himne més autèntic i irreverent"
     },
     {
+        id: 'd9JbCEzdurI',
+        title: 'Es Colors de Sant Joan',
+        desc: 'Guanyadora des concurs de sa cançó de Sant Joan'
+    },
+    {
         id: 'NP2OrJX6_ok',
         title: 'Que Farem (Live)',
         desc: 'Ses sessions des Taller'
+    },
+    {
+        id: 'Ddj6bx3mQLQ',
+        title: 'Ses Germanes',
+        desc: 'Música de rel i sentiments còsmics'
     }
 ];
 
