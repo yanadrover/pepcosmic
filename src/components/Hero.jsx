@@ -27,7 +27,7 @@ const Hero = () => {
                     y Es Verros de Balàfia
                 </h2>
                 <p className="text-xl md:text-2xl max-w-2xl mx-auto italic opacity-90 mb-12 font-light">
-                    "Sa expressió més poc pureta d’una cançó popular eivissenca"
+                    "S'expressió més poc pureta d’una cançó popular eivissenca"
                 </p>
             </motion.div>
 
@@ -35,13 +35,13 @@ const Hero = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1, duration: 1 }}
-                className="flex gap-6 flex-wrap justify-center relative z-10"
+                className="flex flex-col items-center gap-12 relative z-10"
             >
                 <a
                     href="#gallery"
                     className="px-8 py-3 bg-rustic-earth/80 hover:bg-rustic-earth text-white rounded-full border border-white/20 backdrop-blur-sm transition-all duration-300 shadow-[0_0_20px_rgba(139,69,19,0.4)] flex items-center gap-2 group"
                 >
-                    Ascolta sa Música
+                    Escolta sa Música
                     <ArrowDown className="w-4 h-4 group-hover:translate-y-1 transition-transform" />
                 </a>
             </motion.div>

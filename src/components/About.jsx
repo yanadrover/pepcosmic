@@ -36,7 +36,7 @@ const About = () => {
                     </p>
                     <p className="text-lg opacity-80 leading-relaxed">
                         No som només un grup de música; som una experiència. Des de ses feixes de Balàfia fins a ses estrelles,
-                        cantem a sa terra, a la vida i a sa irreverència de ser eivissenc en un món modern.
+                        cantem a sa terra, a la vida i a s'irreverència de ser eivissenc en un món modern.
                     </p>
                 </motion.div>
             </div>

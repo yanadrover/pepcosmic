@@ -16,8 +16,17 @@ const Layout = ({ children }) => {
             </main>
 
             {/* Footer */}
-            <footer className="relative z-10 text-center py-6 text-sm opacity-60">
-                <p>&copy; {new Date().getFullYear()} Pep Còsmic y Es Verros de Balàfia</p>
+            <footer className="relative z-10 text-center pt-20 pb-12">
+                <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12 opacity-60 hover:opacity-100 transition-all duration-700 mb-10 px-4">
+                    <img src="/assets/images/logos/consell-nou.jpg" alt="Consell d'Eivissa" className="h-10 md:h-14 w-auto object-contain rounded-full" />
+                    <img src="/assets/images/logos/ajuntament-eivissa.png" alt="Ajuntament d'Eivissa" className="h-10 md:h-14 w-auto object-contain" />
+                    <img src="/assets/images/logos/sant-josep.png" alt="Sant Josep" className="h-10 md:h-14 w-auto object-contain" />
+                    <img src="/assets/images/logos/sant-antoni.png" alt="Sant Antoni" className="h-10 md:h-14 w-auto object-contain" />
+                    <img src="/assets/images/logos/santa-eularia.webp" alt="Santa Eulària" className="h-10 md:h-14 w-auto object-contain" />
+                    <img src="/assets/images/logos/sant-joan.png" alt="Sant Joan" className="h-12 md:h-20 w-auto object-contain" />
+                    <img src="/assets/images/logos/iee.png" alt="Institut d'Estudis Eivissencs" className="h-10 md:h-14 w-auto object-contain" />
+                </div>
+                <p className="text-sm opacity-60 font-light tracking-widest uppercase">&copy; {new Date().getFullYear()} Pep Còsmic y Es Verros de Balàfia</p>
             </footer>
         </div>
     );
