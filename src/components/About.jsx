@@ -30,12 +30,12 @@ const About = () => {
                         Himnes Rurals i <span className="text-rustic-earth">Còsmics</span>
                     </h2>
                     <p className="text-lg opacity-80 mb-6 leading-relaxed">
-                        Pep Còsmic i Es Verros de Balàfia son sa fusió definitiva entre sa tradició pagesa i l'univers infinit.
-                        Amb una guitarra, un capell de palla i una visió surrealista de sa realitat, transformem ses històries
-                        quotidianes d'Eivissa en himnes intergalàctics.
+                        Pep Còsmic i Es Verros de Balàfia son sa fusió definitiva entre sa tradició pagesa i l'univers infinit. 
+                        Interpretam <strong>cançons originals i pròpies compostes per en Josep Ripoll</strong>, que mesclen ses nostres arrels amb s'univers infinit, 
+                        sense oblidar ses <strong>cançons populars clàssiques des cançoner tradicional eivissenc</strong>.
                     </p>
                     <p className="text-lg opacity-80 leading-relaxed">
-                        No som només un grup de música; som una experiència. Des de ses feixes de Balàfia fins a ses estrelles,
+                        No som només un grup de música; som una experiència. Des de ses feixes de Balàfia fins a ses estrelles, 
                         cantem a sa terra, a la vida i a s'irreverència de ser eivissenc en un món modern.
                     </p>
                 </motion.div>
