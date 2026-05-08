@@ -12,27 +12,27 @@ const Awards = () => {
                     <div className="h-1 w-20 bg-rustic-earth mx-auto"></div>
                 </div>
 
-                <div className="flex flex-col md:flex-row items-center gap-12">
+                <div className="flex flex-col items-center gap-10">
                     <motion.div 
                         initial={{ opacity: 0, scale: 0.9 }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 0.8 }}
                         viewport={{ once: true }}
-                        className="w-full md:w-1/2"
+                        className="w-full max-w-lg"
                     >
                         <img 
                             src="/diploma.jpg" 
                             alt="Diploma Accèssit Concurs Cançó de Sant Joan 2022" 
-                            className="w-full h-auto rounded-lg shadow-2xl border-4 border-rustic-earth/30 hover:rotate-1 transition-transform duration-500"
+                            className="w-full h-auto rounded-lg shadow-2xl border-4 border-rustic-earth/30 hover:scale-[1.02] transition-transform duration-500"
                         />
                     </motion.div>
 
                     <motion.div 
-                        initial={{ opacity: 0, x: 30 }}
-                        whileInView={{ opacity: 1, x: 0 }}
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.2 }}
                         viewport={{ once: true }}
-                        className="w-full md:w-1/2 text-left"
+                        className="w-full max-w-2xl text-center"
                     >
                         <h3 className="text-2xl font-serif text-rustic-earth mb-4">
                             Accèssit Concurs Cançó de Sant Joan 2022

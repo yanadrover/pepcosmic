@@ -15,10 +15,10 @@ function App() {
       <BackgroundMusic />
       <Hero />
       <About />
-      <Awards />
       <Gallery />
       <PhotoGallery />
       <SocialLinks />
+      <Awards />
       <Contact />
     </Layout>
   );
